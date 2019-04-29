@@ -1,0 +1,143 @@
+body{
+    background-color: #fdedda;
+    font-family: sans-serif;
+
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 56px;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+} 
+ header ul{
+     display: flex;
+     list-style: none;
+     justify-content: space-between;
+     flex-grow: 0.4;
+     align-items: center;
+     margin-right: 10px;
+    
+   
+}
+header div{
+    color: #f89c34;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.hero{
+   
+   text-align: center;
+    text-orientation: upright;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-top: 7px;
+    align-items: center;
+    align-content: center;
+}
+.hero h1{
+    color: darkgoldenrod;
+    font-size: 50px;
+}
+.hero p{
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    font-family: cursive; 
+}
+
+.section-1 div{
+    border-radius: 10px;
+    height: fit-content;
+    width: 32%;
+    text-align: center;
+}
+.section-1 div div{
+    align-items: center;
+}
+.section-1 p{
+    font-size: 20px;
+    
+}
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    height: fit-content;
+    font-family: cursive; 
+}
+.section-2 div{
+    border-radius: 7px;
+    width: 49%;
+    text-align: center;
+    align-items: center;
+}
+.section-2 div div{
+    height: fit-content;
+    width: 98%;
+    margin-top: 7px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 7px;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 24, 51);
+}
+a:hover{
+    color: rgb(216, 162, 162);
+}
+.section-2 div h1{
+    font-size: 30px;
+    color: black;
+    
+}
+.section-2 div p{
+    font-size: 25px;
+    
+}
+footer ul{
+    background-color: #e3e3e3;
+     display: flex;
+     list-style: underline;
+     justify-content: space-evenly;
+     flex-grow: 0.4;
+     align-items: center;
+}
+@media (min-width: 300px) and (max-width: 700px){
+.section-1{
+    flex-wrap: wrap;
+}
+.hero{
+    height: 70%;
+}
+
+.section-1 div{
+    width: 100%;
+}
+.section-2{
+   flex-wrap: wrap;
+}
+.section-2 div{
+    width: 100%;
+}
+.section-2 div div{
+   width: 100%;
+}
+
+}
+
